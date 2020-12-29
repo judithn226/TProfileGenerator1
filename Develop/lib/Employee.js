@@ -1,18 +1,10 @@
 // TODO: Write code to define and export the Employee class
 class Employee {
     constructor(name, id, email){
-        if (!name){
-            throw new Error("You are missing the name.")
-        }
-        if (!id){
-            throw new Error("You are missing the title.")
-        }
-        if (!email){
-            throw new Error("Your are missing the email.")
-        }
         this.name = name;
         this.id = id;
         this.email =email;
+        this.role = "Employee";
     }
     getId(){
         return this.id;
