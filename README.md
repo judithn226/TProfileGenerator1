@@ -32,3 +32,14 @@ so that I have quick access to emails and GitHub profiles
 
 The project must prompt the user to build an engineering team. An engineering
 team consists of a manager, and any number of engineers and interns.
+
+## Installation Process
+
+In order to install the app dependencies run:
+npm i
+
+In order to use the Team Profile Generator, cd into the Develop folder and run:
+node app.js
+
+To test the Team Profile Generator run:
+npm run test
